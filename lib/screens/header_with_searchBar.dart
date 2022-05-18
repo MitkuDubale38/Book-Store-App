@@ -19,7 +19,7 @@ class Header extends StatelessWidget {
             children: [
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 10, vertical: 0),
-                height: 60,
+                height: 50,
                 width: MediaQuery.of(context).size.width / 1.08,
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,

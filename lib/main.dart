@@ -1,11 +1,13 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'screens/appbar.dart';
 import 'screens/header_with_searchBar.dart';
 import 'screens/row_titles.dart';
+import 'package:/flutter/services.dart';
 
-void main() => runApp(Index());
+void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+  runApp(Index());
+}
 
 class Index extends StatelessWidget {
   @override
