@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/appbar.dart';
 import 'screens/header_with_searchBar.dart';
 import 'screens/row_titles.dart';
-import 'package:/flutter/services.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.transparent));
