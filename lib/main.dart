@@ -42,8 +42,8 @@ class Home extends StatelessWidget {
                       children: <Widget>[
                         Image(
                           image: AssetImage("assets/images/lelasew.jpeg"),
-                          height: 110,
-                          width: 110,
+                          height: 150,
+                          width: 150,
                           fit: BoxFit.fill,
                         ),
                         SizedBox(height: 5),
@@ -61,8 +61,8 @@ class Home extends StatelessWidget {
                       children: <Widget>[
                         Image(
                           image: AssetImage("assets/images/sebez.jpeg"),
-                          height: 110,
-                          width: 110,
+                          height: 150,
+                          width: 150,
                           fit: BoxFit.fill,
                         ),
                         SizedBox(height: 5),
@@ -80,8 +80,8 @@ class Home extends StatelessWidget {
                       children: <Widget>[
                         Image(
                           image: AssetImage("assets/images/hastengaw.png"),
-                          height: 110,
-                          width: 110,
+                          height: 150,
+                          width: 150,
                           fit: BoxFit.fill,
                         ),
                         SizedBox(height: 5),

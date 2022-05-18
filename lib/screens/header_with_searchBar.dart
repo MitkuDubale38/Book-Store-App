@@ -19,7 +19,7 @@ class Header extends StatelessWidget {
             children: [
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 10, vertical: 0),
-                height: 40,
+                height: 60,
                 width: MediaQuery.of(context).size.width / 1.08,
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
@@ -45,7 +45,7 @@ class Header extends StatelessWidget {
                     ),
                     Expanded(
                       child: Padding(
-                        padding: EdgeInsets.symmetric(vertical: 8, horizontal: 2),
+                        padding: EdgeInsets.symmetric(vertical: 4, horizontal: 2),
                         child: const TextField(
                           decoration: InputDecoration(border: InputBorder.none, hintText: 'Search'),
                         ),
